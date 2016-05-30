@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+# gem 'unicorn' #Mycomment
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -45,7 +45,7 @@ group :development do
   gem 'spring'
 end
 
-
+## spree gems
 # I am adding these gems for spree
 gem 'spree', '~> 3.0.9'
 gem 'spree_gateway', '~> 3.0.0'
